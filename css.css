@@ -1,0 +1,117 @@
+.todosHeading{
+    text-align:center;
+}
+
+.taskHeading{
+    font-size:25px;
+    font-weight: lighter;
+}
+.task{
+    font-size:25px;
+    font-weight:lighter;
+}
+
+.container2{
+    display: flex;
+    flex-direction:column;
+}
+
+.addButton{
+    width:70px;
+   background-color:rgb(55, 92, 147);
+   cursor: pointer;
+   height:40px;
+   margin-top:20px;
+   border:none;
+   border-radius:6px;
+   color:white;
+}
+
+.addButton:hover{
+    background-color:green;
+}
+
+.checkBox{
+    height:20px;
+    width:20px;
+    margin-top:20px;
+    margin-right:20px;
+    color:black;
+    cursor: pointer;
+}
+
+
+.labelContainer{
+   
+    display:flex;
+    flex-direction:row;
+    margin-bottom:20px;
+    background-color: #e6f6ff;
+    width: 100%;
+    border-style: solid;
+     border-width: 5px;
+    border-color: #096f92;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    
+}
+
+.delete-icon{
+    padding:20px;
+    color:black;
+    cursor: pointer;
+}
+
+.delete-icon:hover{
+    color:green;
+    font-weight:bold;
+}
+.DeleteCon{
+    text-align:right;
+    width:90%;
+}
+*{
+    list-style-type:none;
+}
+.listItemSContainer{
+    display:flex;
+    flex-direction:row;
+}
+.labelElements{
+    padding:15px;
+    width:30%;
+}
+
+.checked{
+    text-decoration: line-through;
+
+}
+
+.container{
+    margin-left:0px;
+}
+
+.inputText{
+    height:50px;
+    border-radius:12px;
+    border-color:#e0e0de;
+    padding-left:10px;
+}
+
+.SaveButton{
+    width:70px;
+    background-color:rgb(55, 92, 147);
+    cursor: pointer;
+    height:40px;
+    margin-top:20px;
+    border:none;
+    border-radius:6px;
+    color:white;
+}
+
+.SaveButton:hover{
+    background-color:rgb(149, 239, 32);
+    color:black;
+}
